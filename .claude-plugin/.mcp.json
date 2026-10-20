@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "skill-search": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/index.js"],
+      "env": {
+        "SKILL_PATHS": ""
+      },
+      "alwaysLoad": true
+    }
+  }
+}

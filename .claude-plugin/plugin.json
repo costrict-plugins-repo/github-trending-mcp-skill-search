@@ -1,0 +1,13 @@
+{
+  "name": "mcp-skill-search",
+  "version": "1.0.0",
+  "description": "ToolSearch for skills. Bundles /optimize-skill-context (sets SLASH_COMMAND_TOOL_CHAR_BUDGET=1) and /restore-skill-descriptions to manage Claude Code's skill-description budget. skill_search serves descriptions on demand.",
+  "author": {
+    "name": "PettHa",
+    "url": "https://github.com/PettHa"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/PettHa/mcp-skill-search",
+  "repository": "https://github.com/PettHa/mcp-skill-search",
+  "keywords": ["mcp", "skill", "search", "claude-code", "tool-search"]
+}

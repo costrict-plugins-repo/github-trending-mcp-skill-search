@@ -1,0 +1,52 @@
+{
+  "name": "mcp-skill-search",
+  "version": "1.0.0",
+  "description": "Skill discovery via fuzzy/keyword search — ToolSearch for skills. Bundles /optimize-skill-context to free Claude Code's skill-description budget.",
+  "main": "dist/index.js",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "mcp-skill-search": "dist/index.js"
+  },
+  "files": [
+    "dist/",
+    ".claude-plugin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "fast-glob": "^3.3.2",
+    "gray-matter": "^4.0.3",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "PettHa",
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "skill",
+    "tool-search",
+    "model-context-protocol"
+  ]
+}

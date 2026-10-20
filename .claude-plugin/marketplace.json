@@ -1,0 +1,17 @@
+{
+  "name": "mcp-skill-search",
+  "owner": {
+    "name": "PettHa",
+    "url": "https://github.com/PettHa"
+  },
+  "plugins": [
+    {
+      "name": "mcp-skill-search",
+      "source": "./",
+      "description": "ToolSearch for skills. MCP server that searches SKILL.md files by keyword/select/required-term, plus bundled /optimize-skill-context and /restore-skill-descriptions slash-commands to free Claude Code's skill-description budget.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/PettHa/mcp-skill-search",
+      "keywords": ["mcp", "skill", "search", "claude-code", "tool-search"]
+    }
+  ]
+}
